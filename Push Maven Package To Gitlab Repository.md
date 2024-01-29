@@ -51,13 +51,14 @@ repositories {
 
 add to gradle.properties
 
+```
 gitlab_repo=https://**YOUR Gitlab URL**/api/v4/groups/**Group Id**/-/packages/maven
 or
 gitlab_repo=https://**YOUR Gitlab URL**/api/v4/projects/**Project Id**/-/packages/maven
 
 gitlab_token_name=Deploy-Token
 gitlab_token_value=**YOUR_TOKEN**
-
+```
 
 how to create deploy token
 https://docs.gitlab.com/ee/user/project/deploy_tokens/
